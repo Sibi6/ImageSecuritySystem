@@ -1,0 +1,26 @@
+<web-app>
+    
+
+<!--student page servlets-->
+
+	<servlet>
+    <servlet-name>imagehillcipher</servlet-name>
+    <servlet-class>imagehillcipher</servlet-class>
+     </servlet>
+
+     <servlet-mapping>
+    <servlet-name>imagehillcipher</servlet-name>
+    <url-pattern>/imagehillcipher</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+    <servlet-name>imagecomplex</servlet-name>
+    <servlet-class>imagecomplex</servlet-class>
+     </servlet>
+
+     <servlet-mapping>
+    <servlet-name>imagecomplex</servlet-name>
+    <url-pattern>/imagecomplex</url-pattern>
+    </servlet-mapping>
+
+</web-app>
